@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Ajaysinh Parmar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Fira+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <style>
+        html, body { overflow-x: hidden; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #232526 0%, #414345 100%);
+            min-height: 100vh;
+        }
+        .about-hero-bg {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 0;
+            pointer-events: none;
+        }
+        .about-hero-section {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+            padding: 48px 0 32px 0;
+        }
+        .about-hero-title {
+            font-size: 2.6rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            background: linear-gradient(90deg, #0d6efd 30%, #7f53ac 70%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 2px 16px rgba(13,110,253,0.12);
+        }
+        .about-profile-card {
+            background: rgba(255,255,255,0.07);
+            border: none;
+            border-radius: 1.2rem;
+            color: #fff;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin: 0 auto 2rem auto;
+            max-width: 420px;
+            padding: 2rem 1.5rem 1.5rem 1.5rem;
+            position: relative;
+            z-index: 2;
+        }
+        .about-avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #0d6efd 60%, #7f53ac 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem auto;
+            font-size: 2.8rem;
+            color: #fff;
+            box-shadow: 0 4px 24px #0d6efd33;
+        }
+        .about-badges .badge {
+            margin: 0 0.2rem 0.5rem 0;
+            font-size: 1rem;
+            padding: 0.5em 1.1em;
+            border-radius: 1.2em;
+        }
+        .about-list {
+            text-align: left;
+            margin: 1.5rem auto 0 auto;
+            max-width: 420px;
+        }
+        @media (max-width: 767px) {
+            .about-hero-title { font-size: 1.7rem; }
+            .about-profile-card { padding: 1.2rem 0.7rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-code"></i> Ajaysinh Parmar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid" style="padding-top: 70px; max-width: 100vw;">
+        <section class="about-hero-section position-relative" data-aos="fade-up">
+            <svg class="about-hero-bg" viewBox="0 0 1440 320" preserveAspectRatio="none"><defs><linearGradient id="aboutHeroWave" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d6efd"/><stop offset="100%" stop-color="#7f53ac"/></linearGradient></defs><path fill="url(#aboutHeroWave)" fill-opacity="0.22" d="M0,160L60,170.7C120,181,240,203,360,197.3C480,192,600,160,720,133.3C840,107,960,85,1080,101.3C1200,117,1320,171,1380,197.3L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"/></svg>
+            <div class="container" style="position: relative; z-index: 2;">
+                <div class="about-profile-card mb-4" data-aos="zoom-in">
+                    <div class="about-avatar mb-2"><i class="fas fa-user"></i></div>
+                    <h2 class="mb-1" style="font-size:1.3rem; font-weight:600;">Ajaysinh Parmar</h2>
+                    <div class="text-primary mb-2" style="font-family:'Fira Mono',monospace; font-size:1.1rem;">Full-Stack Developer</div>
+                    <div class="about-badges mb-2">
+                        <span class="badge bg-primary">.NET</span>
+                        <span class="badge bg-primary">React</span>
+                        <span class="badge bg-primary">Node.js</span>
+                        <span class="badge bg-primary">JavaScript</span>
+                        <span class="badge bg-primary">TypeScript</span>
+                    </div>
+                </div>
+                <h1 class="about-hero-title mb-3">About <span class="text-primary">Me</span></h1>
+                <p class="lead mb-3">Hello! I'm <span class="fw-bold text-primary">Ajaysinh Parmar</span>, a passionate Full-Stack Developer with 3+ years of experience building robust, scalable, and beautiful web applications. I love turning complex problems into simple, elegant solutions using modern technologies.</p>
+                <p class="mb-3">I specialize in <span class="fw-semibold">.NET, React, Node.js, and modern JavaScript</span>. My focus is on clean code, performance, and delivering a great user experience. I enjoy collaborating with teams, contributing to open source, and learning new things every day.</p>
+                <ul class="about-list list-unstyled mb-4">
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Fast & Responsive Web Apps</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Secure & Reliable Solutions</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Mobile-First, Modern UI/UX</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Team Collaboration & Communication</li>
+                </ul>
+                <div class="social-btns mb-3">
+                    <a href="#" class="btn" title="GitHub" onclick="return false;"><i class="fab fa-github"></i></a>
+                    <a href="#" class="btn" title="LinkedIn" onclick="return false;"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="btn" title="Twitter" onclick="return false;"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+        <div class="section-divider">
+            <svg viewBox="0 0 1440 60" width="100%" height="60" preserveAspectRatio="none"><path fill="#232526" fill-opacity="1" d="M0,32L60,37.3C120,43,240,53,360,53.3C480,53,600,43,720,32C840,21,960,11,1080,10.7C1200,11,1320,21,1380,26.7L1440,32L1440,60L1380,60C1320,60,1200,60,1080,60C960,60,840,60,720,60C600,60,480,60,360,60C240,60,120,60,60,60L0,60Z"></path></svg>
+        </div>
+    </main>
+    <footer class="footer bg-dark text-light py-4 mt-5">
+        <div class="container text-center">
+            <div class="mb-2">
+                <a href="#" class="text-light me-3" onclick="return false;"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-light me-3" onclick="return false;"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-light" onclick="return false;"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div>
+                <small>Made with <span style="color:#e25555">&#10084;</span> &lt;/&gt; by Ajaysinh Parmar &copy; 2024</small>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script>
+        if (window.AOS) {
+            AOS.init({
+                duration: 900,
+                once: true,
+                offset: 60
+            });
+        }
+    </script>
+</body>
+</html> 

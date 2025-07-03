@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Ajaysinh Parmar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Fira+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <style>
+        html, body { overflow-x: hidden; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #232526 0%, #414345 100%);
+            min-height: 100vh;
+        }
+        .projects-hero-title {
+            font-size: 2.4rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            background: linear-gradient(90deg, #0d6efd 30%, #7f53ac 70%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 2px 16px rgba(13,110,253,0.12);
+        }
+        .text-gradient {
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        @media (max-width: 575.98px) {
+            .navbar-brand { font-size: 1.1rem !important; padding-right: 0; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-code"></i> Ajaysinh Parmar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid" style="padding-top: 70px; max-width: 100vw;">
+        <section class="py-5" data-aos="fade-up">
+            <div class="container" style="position: relative; z-index: 2;">
+                <h1 class="projects-hero-title mb-4">Projects</h1>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="fw-bold mb-2">E-Commerce Platform</h5>
+                                <p class="mb-2">A full-stack e-commerce solution built with React, Node.js, and MySQL. Features user authentication, product management, shopping cart, and payment integration.</p>
+                                <div class="mb-2">
+                                    <span class="badge bg-primary m-1">React</span>
+                                    <span class="badge bg-primary m-1">Node.js</span>
+                                    <span class="badge bg-primary m-1">MySQL</span>
+                                    <span class="badge bg-primary m-1">Stripe</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2" onclick="return false;">Live Demo</a>
+                                <a href="#" class="btn btn-outline-dark btn-sm" onclick="return false;">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="fw-bold mb-2">Task Management App</h5>
+                                <p class="mb-2">A collaborative task management application with real-time updates, team collaboration features, and progress tracking.</p>
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary m-1">Vue.js</span>
+                                    <span class="badge bg-secondary m-1">Firebase</span>
+                                    <span class="badge bg-secondary m-1">Vuex</span>
+                                    <span class="badge bg-secondary m-1">Vuetify</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2" onclick="return false;">Live Demo</a>
+                                <a href="#" class="btn btn-outline-dark btn-sm" onclick="return false;">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="fw-bold mb-2">Analytics Dashboard</h5>
+                                <p class="mb-2">A comprehensive analytics dashboard for business intelligence with interactive charts, data visualization, and reporting features.</p>
+                                <div class="mb-2">
+                                    <span class="badge bg-success m-1">React</span>
+                                    <span class="badge bg-success m-1">D3.js</span>
+                                    <span class="badge bg-success m-1">Python</span>
+                                    <span class="badge bg-success m-1">PostgreSQL</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2" onclick="return false;">Live Demo</a>
+                                <a href="#" class="btn btn-outline-dark btn-sm" onclick="return false;">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="fw-bold mb-2">Mobile App</h5>
+                                <p class="mb-2">A cross-platform mobile application for fitness tracking with GPS integration, workout plans, and social features.</p>
+                                <div class="mb-2">
+                                    <span class="badge bg-danger m-1">React Native</span>
+                                    <span class="badge bg-danger m-1">Node.js</span>
+                                    <span class="badge bg-danger m-1">MongoDB</span>
+                                    <span class="badge bg-danger m-1">AWS</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2" onclick="return false;">Live Demo</a>
+                                <a href="#" class="btn btn-outline-dark btn-sm" onclick="return false;">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="fw-bold mb-2">Blog Platform</h5>
+                                <p class="mb-2">A modern blog platform with content management system, SEO optimization, and social media integration.</p>
+                                <div class="mb-2">
+                                    <span class="badge bg-info m-1">Next.js</span>
+                                    <span class="badge bg-info m-1">Strapi</span>
+                                    <span class="badge bg-info m-1">PostgreSQL</span>
+                                    <span class="badge bg-info m-1">Vercel</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2" onclick="return false;">Live Demo</a>
+                                <a href="#" class="btn btn-outline-dark btn-sm" onclick="return false;">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body">
+                                <h5 class="fw-bold mb-2">AI Chatbot</h5>
+                                <p class="mb-2">An intelligent chatbot powered by machine learning for customer support and automated responses.</p>
+                                <div class="mb-2">
+                                    <span class="badge bg-warning m-1">Python</span>
+                                    <span class="badge bg-warning m-1">TensorFlow</span>
+                                    <span class="badge bg-warning m-1">Flask</span>
+                                    <span class="badge bg-warning m-1">NLP</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2" onclick="return false;">Live Demo</a>
+                                <a href="#" class="btn btn-outline-dark btn-sm" onclick="return false;">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section-divider">
+            <svg viewBox="0 0 1440 60" width="100%" height="60" preserveAspectRatio="none"><path fill="#232526" fill-opacity="1" d="M0,32L60,37.3C120,43,240,53,360,53.3C480,53,600,43,720,32C840,21,960,11,1080,10.7C1200,11,1320,21,1380,26.7L1440,32L1440,60L1380,60C1320,60,1200,60,1080,60C960,60,840,60,720,60C600,60,480,60,360,60C240,60,120,60,60,60L0,60Z"></path></svg>
+        </div>
+    </main>
+    <footer class="footer bg-dark text-light py-4 mt-5">
+        <div class="container text-center">
+            <div class="mb-2">
+                <a href="#" class="text-light me-3" onclick="return false;"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-light me-3" onclick="return false;"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-light" onclick="return false;"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div>
+                <small>Made with <span style="color:#e25555">&#10084;</span> &lt;/&gt; by Ajaysinh Parmar &copy; 2024</small>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script>
+        if (window.AOS) {
+            AOS.init({
+                duration: 900,
+                once: true,
+                offset: 60
+            });
+        }
+    </script>
+</body>
+</html> 
