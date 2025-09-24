@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Accessories Store | Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            zoom: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+            <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="site-title">Hanumant Accessory</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="about.html">About Us & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cart-container">
+            <div class="shop-header">
+                <h1>Your Cart</h1>
+            </div>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="https://m.media-amazon.com/images/I/51nuChMA89L._SX679_.jpg" alt="Wireless Earbuds">
+                    <div class="cart-item-info">
+                        <h3>Wireless Earbuds</h3>
+                        <p class="price">₹1,499</p>
+                        <div class="quantity">
+                            <label for="qty1">Qty:</label>
+                            <input type="number" id="qty1" value="1" min="1" max="10">
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="https://m.media-amazon.com/images/I/51-kjpF6RPL._AC_SX679_.jpg" alt="Fast Charger">
+                    <div class="cart-item-info">
+                        <h3>Fast Charger</h3>
+                        <p class="price">₹799</p>
+                        <div class="quantity">
+                            <label for="qty2">Qty:</label>
+                            <input type="number" id="qty2" value="1" min="1" max="10">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <h2>Order Summary</h2>
+                <p>Subtotal: ₹2,298</p>
+                <p>Total: ₹2,298</p>
+                <a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="cart.html">Cart</a>
+            <a href="checkout.html">Checkout</a>
+            <a href="about.html">About Us & Contact</a>
+        </div>
+        <div class="footer-credit">
+            Developed by Ajaysinh Parmar
+        </div>
+    </footer>
+</body>
+</html>
