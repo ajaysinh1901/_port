@@ -1,1 +1,0 @@
-// All code removed. AJAX navigation is disabled. Navigation will use default browser behavior. 
